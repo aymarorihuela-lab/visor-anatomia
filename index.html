@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visor 3D Telegram</title>
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+  <style>
+    /* Esto hace que el modelo ocupe toda la pantalla del cel */
+    body { margin: 0; background-color: #f0f0f0; height: 100vh; }
+    model-viewer { width: 100%; height: 100%; }
+  </style>
+</head>
+<body>
+
+  <model-viewer 
+      src="modelo.glb" 
+      alt="Un modelo 3D" 
+      camera-controls 
+      auto-rotate>
+  </model-viewer>
+
+</body>
+</html>
